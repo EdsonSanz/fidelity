@@ -1,6 +1,6 @@
 # Web Client
 
-Web app serving agricultural professionals with commodity prices, order management, financial tracking, grain contracts, weather forecasts, and more.
+Web app serving agricultural professionals with commodity prices, order management, financial tracking, grain contracts, weather forecasts, and more...
 
 
 ---
