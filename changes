@@ -1,0 +1,16 @@
+# Change Description
+
+Adjust the safra selector bottom sheet sizing and spacing so the selector opens taller and list items are more visible: increase available vertical space, refine item paddings and separators, and make the provider only force the larger snap for sheets explicitly configured to do so.
+
+## Background (Why we did this)
+
+UX testing showed the previous bottom sheet height and item spacing caused items to be truncated and reduced scanability; the change increases visible items and avoids unintended global behavior by limiting forced snapping to sheets explicitly configured to open at the higher snap.
+
+## Testing
+
+- Inspected local commits and staged content to confirm the final single commit contains all intended edits.
+- Commands run during verification:
+  - `git show --name-only HEAD`
+  - `git log --oneline -n 5`
+  - `git status --porcelain`
+- Verified code changes by reading the modified modules to ensure the sizing, padding, and conditional snap behavior were implemented as intended.
